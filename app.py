@@ -326,7 +326,7 @@ with tab2:
             return "background-color: rgba(46,204,113,0.15); color: #2ecc71;"
 
         st.dataframe(
-            comp_show.style.applymap(style_overfit, subset=["Overfit?"])
+            comp_show.style.map(style_overfit, subset=["Overfit?"])
                            .format({c: "{:.4f}" for c in comp_show.select_dtypes("float").columns}),
             use_container_width=True, height=520
         )
