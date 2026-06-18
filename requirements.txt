@@ -26,10 +26,10 @@ prophet>=1.1.5
 cmdstanpy>=1.2.0
 holidays>=0.35
 
-# Deep Learning
-tensorflow>=2.14.0
-keras>=3.0.0
-h5py>=3.9.0
+# Deep Learning (Commented out to allow successful deployment on Streamlit Cloud)
+# tensorflow>=2.14.0
+# keras>=3.0.0
+# h5py>=3.9.0
 
 # Streamlit App
 streamlit>=1.28.0
